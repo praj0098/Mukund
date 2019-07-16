@@ -1,3 +1,4 @@
 mm=int(input())
-vv=list(map(int,input().split()[:mm]))
-print(max(vv))
+aa=list(map(int,input().split()))
+aa.sort()
+print(aa[0])
